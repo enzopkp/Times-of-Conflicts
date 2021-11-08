@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Age_Of_War.GameSingleton">
+    <Position X="16" Y="0.5" Width="2.5" />
+    <NestedTypes>
+      <Class Name="Age_Of_War.GameSingleton.Nested" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameSingleton.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAgAAAAAAEAAIAAAFQBAAAAAAAAI=</HashCode>
+      <FileName>GameSingleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Age_Of_War.GameRender">
+    <Position X="16" Y="6.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAABIAAAAAAAAAAAAAgAEAAACAAAAAAAACAQgBAAI=</HashCode>
+      <FileName>GameRender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Age_Of_War.GameManager">
+    <Position X="16" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAACAAAAAAAAAAgAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Age_Of_War.Player">
+    <Position X="10" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQIAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Age_Of_War.CastleDefender">
+    <Position X="11.75" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABIAAQgAAAAAAAAAAQAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Towers\CastleDefender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Age_Of_War.Soldier">
+    <Position X="0.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABBCCALAAAEAAAQgAQAAAAAIAIAJgAAgBAAggAAAAAA=</HashCode>
+      <FileName>Soldiers\Soldier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Age_Of_War.Range">
+    <Position X="7.25" Y="9" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Soldiers\Range.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Age_Of_War.Melee">
+    <Position X="4.5" Y="9" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Soldiers\Melee.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Age_Of_War.Giant">
+    <Position X="1.75" Y="9" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Soldiers\Giant.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Age_Of_War.EnemyRange">
+    <Position X="3.25" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Soldiers\EnemyRange.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Age_Of_War.EnemyMelee">
+    <Position X="0.5" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Soldiers\EnemyMelee.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Age_Of_War.EnemyGiant">
+    <Position X="6" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Soldiers\EnemyGiant.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Age_Of_War.UpgradeGUI">
+    <Position X="11.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>GUI\UpgradeGUI.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Age_Of_War.RangeGUI">
+    <Position X="9.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>GUI\RangeGUI.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Age_Of_War.MeleeGUI">
+    <Position X="7.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>GUI\MeleeGUI.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Age_Of_War.GUIOption">
+    <Position X="10" Y="7" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAABACAAAAgAAAAgEAAABABAAAAAAAAgEAAAAQ=</HashCode>
+      <FileName>GUI\GUIOption.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Age_Of_War.GUIManager">
+    <Position X="15.75" Y="12.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAgAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GUI\GUIManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Age_Of_War.GiantGUI">
+    <Position X="14" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>GUI\GiantGUI.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Age_Of_War.Upgrade">
+    <Position X="5.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnemyBehaviour\Upgrade.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Age_Of_War.Strategy">
+    <Position X="6" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnemyBehaviour\Strategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Age_Of_War.Enemy">
+    <Position X="14" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAACAAACAAAAAEAAAAAAAAAAAAAAAAAQAE=</HashCode>
+      <FileName>EnemyBehaviour\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Age_Of_War.AddRange">
+    <Position X="3.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnemyBehaviour\AddRange.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Age_Of_War.AddMelee">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnemyBehaviour\AddMelee.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Age_Of_War.AddGiant">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnemyBehaviour\AddGiant.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Age_Of_War.CastleBuilder">
+    <Position X="16" Y="10.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAIAAAQAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Castles\CastleBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Age_Of_War.Castle">
+    <Position X="13" Y="4" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AQBBCACIECUAAABAAAIADAAYAICAAACkAAAAEgAAYAA=</HashCode>
+      <FileName>Castles\Castle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Age_Of_War.IAttack">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Soldiers\IAttack.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Age_Of_War.IAction">
+    <Position X="5.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>GUI\IAction.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Age_Of_War.IStrategy">
+    <Position X="7.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnemyBehaviour\IStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
