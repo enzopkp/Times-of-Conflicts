@@ -40,7 +40,9 @@ On this screen, the user is given the possibility to restart or quit the game.
 In this class, the implementation of the singleton design pattern is done. It is a thread-safe, lazy instantiation that does not use locks. In other words, this instantiation of the singleton design pattern is engineered for multi-threading applications. It also uses the lazy initialization concepts, which means the singleton is not created until it is first used. This implementation of a singleton is proved to be very efficient in terms of performance and safety of execution as opposed to a lot of other variants of such design pattern.
 
 # Factory design pattern:
+[CastleBuilder.cs]
 ![image](https://user-images.githubusercontent.com/93856977/140724305-c5990756-9d4f-40bb-abec-2b1db1c67cf2.png)
+
 This design pattern, 
 
 # Strategy design pattern:
