@@ -17,7 +17,7 @@ Some of the features I successfully implemented are:
 - Several design patterns were used for code readability, efficiency and upgradability
 - Responsive bitmaps for castles dependant on their health 
 - Simple and eye-catching user interface
-- 
+
 Without further due, here are some of the different features explained in more details.
 # Start menu:
 ![image](https://user-images.githubusercontent.com/93856977/140720944-4abd5b89-fb7c-4e08-b508-588e2479b24b.png)
