@@ -53,10 +53,15 @@ In this class, we can see the implementation of a factory design pattern. This d
 
 # Strategy design pattern:
 [Enemy.cs]
+
 ![image](https://user-images.githubusercontent.com/93856977/140724376-b0c99e01-00ba-4cd2-8aae-c21f3839b2db.png)
+
 [IStrategy.cs]
+
 ![image](https://user-images.githubusercontent.com/93856977/140961505-a9a638cf-f95a-47b5-9a95-94b06e0d66da.png)
+
 [AddMelee.cs]
+
 ![image](https://user-images.githubusercontent.com/93856977/140961557-4db2568e-0e10-4bd9-a00f-f1598ca91a8f.png)
 
 A strategy pattern is a behavioural design pattern that allows the code to chose the algorithm to execute between a range of algorithms at runtime. This is done through the implementation of a context class (Enemy.cs), interacting with an interface (IStrategy.cs) which is common to all strategies. It allows the context class to select the desired strategy (AddGiant.cs, AddMelee.cs, AddRange.cs, Upgrade.cs). Upon execution of the DoSomething() method in Enemy.cs, the code will randomly determine a strategy to use, and its logic will then be executed through the Do() method existing in the IStrategy.cs interface.
